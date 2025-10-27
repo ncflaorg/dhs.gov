@@ -1,0 +1,169 @@
+#wcm-survey-popup {
+  background-color: #ffffff;
+  padding: 10px;
+  color: #fff;
+  box-sizing: border-box;
+  display: none;
+}
+#cboxLoadedContent #wcm-survey-popup {
+  display: flex;
+}
+
+#wcm-survey-popup .survey-logo-wrap {
+  top: auto;
+}
+#wcm-survey-popup #survey-logo {
+  max-height: 150px;
+  min-width: 85px;
+}
+
+#wcm-survey-popup .message strong {
+  font-size: 1.1em;
+}
+
+#wcm-survey-popup .choices {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#wcm-survey-popup .choices .button a {
+  background: #fff;
+  padding: 5px 15px;
+  color: #000;
+  text-decoration: none;
+  margin: 5px;
+}
+
+#cboxClose {
+  background: none !important;
+  width: auto !important;
+  height: auto !important;
+  text-indent: 0 !important;
+}
+
+#section-footer #wcm-survey-popup {
+  display: none;
+}
+
+#wcm-survey-popup {
+  background-color: #fff;
+  color: #666;
+  padding: 10px;
+  font-weight: bold;
+  line-height: 1.25em
+}
+
+#wcm-survey-popup.ui-dialog-content[style] {
+  display: flex !important;
+}
+
+#wcm-survey-popup span.button {
+  border: 0;
+  background-image: none;
+  border-radius: 0;
+  background-color: white;
+}
+
+#wcm-survey-popup .survey-logo-wrap {
+  display: flex;
+  align-items: center;
+}
+
+#wcm-survey-popup .message {
+  display: flex;
+  align-items: center;
+  padding: 0 15px 0 20px;
+}
+
+#wcm-survey-target-id + .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#wcm-survey-target-id + .ui-dialog .ui-dialog-titlebar,
+#wcm-survey-target-id + .ui-dialog .ui-dialog-buttonpane {
+  background-color: #edeeee;
+}
+
+#wcm-survey-target-id + .ui-dialog .ui-icon.ui-icon-closethick {
+  background-color: #cfd1d2;
+}
+
+#wcm-survey-popup .choices .button a {
+  color: #fff;
+  border-radius: 5px
+}
+
+#wcm-survey-popup .choices .button.yes a {
+  background-color: #00578d
+}
+
+#wcm-survey-popup .choices .button.no a {
+  background-color: #444
+}
+
+@media screen and (max-width: 67em) {
+  #wcm-survey-popup .survey-logo-wrap,
+  #wcm-survey-popup .message {
+    margin-top: 20px
+  }
+}
+
+@media screen and (max-width: 40em) {
+    #wcm-survey-popup {
+        font-size: 80%
+    }
+
+    #wcm-survey-popup .survey-logo-wrap {
+        margin-top: 0
+    }
+
+    #wcm-survey-popup .message {
+        margin-top: 10px
+    }
+
+    #wcm-survey-popup .choices {
+        margin-top: 20px
+    }
+
+    #wcm-survey-popup .choices span.button {
+        display: block;
+        font-size: 75%;
+        margin-top: 20px
+    }
+
+    #wcm-survey-popup {
+      font-size: 80%
+    }
+
+    #wcm-survey-popup .survey-logo-wrap {
+      margin-top: 0
+    }
+
+    #wcm-survey-popup .message {
+      margin-top: 10px
+    }
+
+    #wcm-survey-popup .choices {
+      margin-top: 20px
+    }
+
+    #wcm-survey-popup .choices span.button {
+      display: block;
+      font-size: 75%;
+      margin-top: 20px
+    }
+}
+
+#cboxOverlay {
+  position: absolute;
+  top: 0;
+  height: 10000px;
+  width: 100%;
+  background-color: rgba(0,0,0,.9);
+  z-index: 1000;
+}
+#colorbox {
+  z-index: 1001;
+}

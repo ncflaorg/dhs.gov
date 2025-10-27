@@ -1,0 +1,7 @@
+div#feedback-form-container {
+  text-align: center;
+}
+div#feedback-form-container div.form-radios .form-item {
+  display: inline-block;
+  margin: .15rem;
+}
